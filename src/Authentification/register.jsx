@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import './register.css'
 
 
-const registerPage = () => {
+const RegisterPage = () => {
 
   const [formData, setFormData] = useState({
     username: '',
@@ -108,4 +108,4 @@ const registerPage = () => {
 };
 
 
-export default registerPage;
+export default RegisterPage;

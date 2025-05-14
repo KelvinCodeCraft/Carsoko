@@ -1,0 +1,114 @@
+/* auth.css - Shared styles for both login and register */
+
+/* Base styles */
+/*.auth-container {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: white;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 400px;
+  margin: 2rem auto;
+  text-align: center;
+}
+
+/* Title */
+.auth-container h2 {
+  font-size: 1.8rem;
+  font-weight: 600;
+  color: #1a72c9;
+  margin-bottom: 1.5rem;
+}
+
+/* Form elements */
+.form-group {
+  margin-bottom: 1.5rem;
+  text-align: left;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: 500;
+  color: #1d7ddd;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 0.8rem;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 1rem;
+  transition: border-color 0.3s ease;
+  box-sizing: border-box;
+}
+
+.form-group input:focus {
+  outline: none;
+  border-color: #6eb3e1;
+  box-shadow: 0 0 0 2px rgba(11, 52, 79, 0.553);
+}
+
+.form-group input::placeholder {
+  color: #22aeb8;
+}
+
+/* Error messages */
+.error-message {
+  color: #e74c3c;
+  font-size: 0.9rem;
+  margin-bottom: 1rem;
+  padding: 0.5rem;
+  background-color: #fde8e8;
+  border-radius: 5px;
+}
+
+/* Button */
+.auth-button {
+  width: 100%;
+  padding: 0.8rem;
+  background-color: #2d3bcb;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-top: 0.5rem;
+}
+
+.auth-button:hover {
+  background-color: #2980b9;
+}
+
+/* Link text */
+.auth-link {
+  margin-top: 1.5rem;
+  color: #0e26ab;
+  font-size: 0.9rem;
+}
+
+.auth-link span {
+  color: #3498db;
+  cursor: pointer;
+  font-weight: 500;
+  text-decoration: underline;
+}
+
+.auth-link span:hover {
+  color: #2980b9;
+}
+
+/* Responsive adjustments */
+@media (max-width: 480px) {
+  .auth-container {
+    padding: 1.5rem;
+    margin: 1rem;
+  }
+  
+  .auth-container h2 {
+    font-size: 1.5rem;
+  }
+}

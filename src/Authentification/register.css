@@ -1,0 +1,104 @@
+
+/* register.css */
+
+/* Base styles */
+body {
+  font-family: 'Inter', 'Helvetica Neue', Arial, sans-serif;
+  background-color: #ffffff;
+  margin: 0 auto;
+  padding: 40px;
+  border-radius: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+form {
+  background-color: white;
+  padding: 2rem; 
+  border-radius: 10px;
+  box-shadow: 0 4px 20px rgba(235, 220, 220, 0.589);
+  width: 100%;
+  max-width: 400px;
+  margin: 3rem;
+}
+
+/* Form title */
+form::before {
+  content: "Create Account";
+  display: block;
+  font-size: 1.8rem;
+  font-weight: 600;
+  color: hsla(238, 89%, 37%, 0.844);
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+/* Form elements */
+div {
+  margin-bottom: 1.5rem;
+  position: relative;
+}
+
+label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: 500;
+  color: #1d0286;
+}
+
+input {
+  width: 100%;
+  padding: 0.8rem;
+  border: 1px solid lab(30.55% 35.95 -68.69);
+  border-radius: 5px;
+  font-size: 1rem;
+  transition: border-color 0.3s ease;
+  box-sizing: border-box;
+}
+
+input:focus {
+  outline: none;
+  border-color: hsl(239, 63%, 42%);
+  box-shadow: 0 0 0 2px #1021dc33;
+}
+
+/* Error messages */
+span {
+  display: block;
+  color: #9e1607;
+  font-size: 0.8rem;
+  margin-top: 0.3rem;
+}
+
+/* Submit button */
+button {
+  width: 100%;
+  padding: 0.8rem;
+  background-color: #ffffff;
+  color: rgb(12, 68, 235);
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0 4px 20px rgba(11, 15, 227, 0.279);
+  font-size: 1rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #3b49bf;
+}
+
+/* Responsive adjustments */
+@media (max-width: 480px) {
+  form {
+    padding: 1.5rem;
+    margin: 1rem;
+  }
+  
+  form::before {
+    font-size: 1.5rem;
+  }
+}
