@@ -1,114 +1,56 @@
-/* auth.css - Shared styles for both login and register */
-
-/* Base styles */
-/*.auth-container {
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  background-color: white;
-  padding: 2rem;
-  border-radius: 10px;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  width: 100%;
+/* Styles for the form container */
+* {
+  box-sizing: border-box;
+}
+form {
   max-width: 400px;
-  margin: 2rem auto;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  align-items: center;
   text-align: center;
 }
 
-/* Title */
-.auth-container h2 {
-  font-size: 1.8rem;
-  font-weight: 600;
-  color: #1a72c9;
-  margin-bottom: 1.5rem;
+/* Styles for the form fields and labels */
+form div {
+  margin-bottom: 15px;
 }
 
-/* Form elements */
-.form-group {
-  margin-bottom: 1.5rem;
-  text-align: left;
-}
-
-.form-group label {
+label {
   display: block;
-  margin-bottom: 0.5rem;
-  font-weight: 500;
-  color: #1d7ddd;
+  font-weight: bold;
 }
 
-.form-group input {
+input {
   width: 100%;
-  padding: 0.8rem;
-  border: 1px solid #ddd;
+  padding: 10px;
+  border: 1px solid #ccc;
   border-radius: 5px;
-  font-size: 1rem;
-  transition: border-color 0.3s ease;
-  box-sizing: border-box;
+  font-size: 16px;
 }
 
-.form-group input:focus {
-  outline: none;
-  border-color: #6eb3e1;
-  box-shadow: 0 0 0 2px rgba(11, 52, 79, 0.553);
-}
-
-.form-group input::placeholder {
-  color: #22aeb8;
-}
-
-/* Error messages */
-.error-message {
+/* Styles for error messages */
+span {
   color: #e74c3c;
-  font-size: 0.9rem;
-  margin-bottom: 1rem;
-  padding: 0.5rem;
-  background-color: #fde8e8;
-  border-radius: 5px;
+  font-size: 14px;
+  margin-top: 5px;
+  display: block;
 }
 
-/* Button */
-.auth-button {
-  width: 100%;
-  padding: 0.8rem;
-  background-color: #2d3bcb;
-  color: white;
+/* Styles for the submit button */
+button {
+  background-color: #3498db;
+  color: #fff;
+  padding: 10px 15px;
   border: none;
   border-radius: 5px;
-  font-size: 1rem;
-  font-weight: 500;
+  font-size: 16px;
   cursor: pointer;
-  transition: background-color 0.3s ease;
-  margin-top: 0.5rem;
+  transition: background-color 0.3s;
 }
 
-.auth-button:hover {
+button:hover {
   background-color: #2980b9;
-}
-
-/* Link text */
-.auth-link {
-  margin-top: 1.5rem;
-  color: #0e26ab;
-  font-size: 0.9rem;
-}
-
-.auth-link span {
-  color: #3498db;
-  cursor: pointer;
-  font-weight: 500;
-  text-decoration: underline;
-}
-
-.auth-link span:hover {
-  color: #2980b9;
-}
-
-/* Responsive adjustments */
-@media (max-width: 480px) {
-  .auth-container {
-    padding: 1.5rem;
-    margin: 1rem;
-  }
-  
-  .auth-container h2 {
-    font-size: 1.5rem;
-  }
 }

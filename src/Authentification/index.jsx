@@ -1,18 +1,25 @@
 import React from "react";
 import { Routes, Route, Link } from "react-router-dom";
-import Login from "../prac/login";
 import RegisterPage from "./register";
-import LoginRegister from "./LoginRegister";
+import LoginPage from "./LoginPage";
 
 const Authentification = () => {
     return (
         <div className="auth-container">
-            <button>
-               <Link to={LoginRegister} className="LoginRegister" > 
-                <LoginRegister />
-               </Link>
-            </button>
+            <nav>
+                <button to="/register" className="registerPage">
+                    Register
+                </button>
+                <button to="/login" className="loginPage">
+                    Login
+                </button>
+            </nav>
+            <Routes>
+                <Route path="/register" element={<RegisterPage />} />
+                <Route path="/login" element={<LoginPage />} />
+            </Routes>
         </div>
-    );  
-}
+    );
+};
+
 export default Authentification;

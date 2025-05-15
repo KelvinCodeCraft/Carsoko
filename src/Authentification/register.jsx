@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
-import './register.css'
+import './register.css';
 
 
-const RegisterPage = () => {
+const registerPage = () => {
 
   const [formData, setFormData] = useState({
     username: '',
@@ -108,4 +108,4 @@ const RegisterPage = () => {
 };
 
 
-export default RegisterPage;
+export default registerPage;

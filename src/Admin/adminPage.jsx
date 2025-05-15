@@ -50,7 +50,7 @@ const AdminPage = () => {
         <div className="admin-container">
             {/* Sidebar */}
             <div className="sidebar">
-                <h2 className="sidebar-title">Dashboard</h2>
+                <h2 className="sidebar-title">Admin Dashboard</h2>
                 <nav className="sidebar-nav">
                     <Link to="/" className="sidebar-link" onClick={handleHomeClick}>
                         Home
@@ -68,7 +68,7 @@ const AdminPage = () => {
                         path="/"
                         element={
                             <div>
-                                <h2 className="main-title">All Cars</h2>
+                                <h2 className="main-title">ALL CARS</h2>
                                 <div className="car-grid">
                                     {cars.map((car) => (
                                         <div key={car.id} className="car-card">
