@@ -7,11 +7,6 @@ import LoginRegister from "./LoginRegister";
 const Authentification = () => {
     return (
         <div className="auth-container">
-            {/*<button>
-                <Link to={Login} className="login" >
-                  <Login /> 
-                </Link>
-            </button>*/}
             <button>
                <Link to={LoginRegister} className="LoginRegister" > 
                 <LoginRegister />
