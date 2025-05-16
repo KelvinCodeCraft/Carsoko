@@ -10,9 +10,10 @@ const Authentification = () => {
                 <Link to="/register" className="registerPage">
                     Register
                 </Link>
-                <Link to="/login" className="loginPage">
+                < Link to="/login" className="loginPage">
                     Login
                 </Link>
+
             </nav>
             <Routes>
                 <Route path="/register" element={<RegisterPage />} />
