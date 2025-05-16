@@ -4,7 +4,6 @@ import Body from "./body/body";
 import Footer from "./footer/footer";
 
 const Homepage = () => {
-  // Optional: theme state for Navbar (if you want to support theme switching)
   const [theme, setTheme] = useState("light");
 
   return (
