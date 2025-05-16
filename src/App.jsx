@@ -14,12 +14,8 @@ const App = () => {
     <div>
          <Router>
       <Routes>
-        {/* <Route path="/*" element={<AdminPage />} /> */}
-<<<<<<< HEAD
-        <Route path="/*" element={<Authentification />} />
-=======
-        <Route path="/navbar" element={<navbar />} />
->>>>>>> ibrah
+        <Route path="/*" element={<AdminPage />} />
+        {/* <Route path="/*" element={<Authentification />} /> */}
       </Routes>
     </Router>
     </div>
