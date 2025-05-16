@@ -7,12 +7,13 @@ const Authentification = () => {
     return (
         <div className="auth-container">
             <nav>
-                <link to="/register" className="registerPage">
+                <button to="/register" className="registerPage">
                     Register
-                </link>
-                <link to="/login" className="loginPage">
+                </button>
+                <button to="/login" className="loginPage">
                     Login
                 </link>
+                </Link>
             </nav>
             <Routes>
                 <Route path="/register" element={<RegisterPage />} />
