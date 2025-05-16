@@ -25,6 +25,7 @@ body {
     text-align: center;
     margin-bottom: 20px;
     font-size: 20px;
+    color: white;
 }
 
 .sidebar-nav {
@@ -59,7 +60,7 @@ body {
 
 .main-title {
     margin-bottom: 20px;
-    font-size: 24px;
+    font-size: 22px;
     color: #343a40;
 }
 
